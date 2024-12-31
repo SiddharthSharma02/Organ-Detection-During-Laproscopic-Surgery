@@ -1,0 +1,23 @@
+# Path to the dataset
+train: /content/drive/My Drive/output/images/train
+val: /content/drive/My Drive/output/images/validation
+test: /content/drive/My Drive/output/images/test
+
+# Number of classes
+nc: 13  # Update with the correct number of classes
+
+# List of class names
+names:
+  0: 'Black Background'
+  1: 'Abdominal Wall'
+  2: 'Liver'
+  3: 'Gastrointestinal Tract'
+  4: 'Fat'
+  5: 'Grasper'
+  6: 'Connective Tissue'
+  7: 'Blood'
+  8: 'Cystic Duct'
+  9: 'L-hook Electrocautery'
+  10: 'Gallbladder'
+  11: 'Hepatic Vein'
+  12: 'Liver Ligament'
